@@ -1,0 +1,93 @@
+<<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agrinho 2026 - Agronegócio e Sustentabilidade</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+<header class="hero">
+  <h1>Agrinho 2026</h1>
+  <p>O agronegócio conecta tecnologia, sustentabilidade e alimentação para o mundo</p>
+  <button onclick="scrollToSection('sobre')">Explorar</button>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#dados">Dados</a></li>
+    <li><a href="#tecnologia">Tecnologia</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+</nav>
+
+<section id="sobre" class="section">
+  <h2>🌱 Sobre o Agrinho</h2>
+  <p>
+    O Programa Agrinho incentiva educação, cidadania e sustentabilidade, aproximando o campo e a cidade.
+    O agronegócio brasileiro é um dos mais fortes do mundo, responsável por grande parte da produção de alimentos,
+    exportações e inovação tecnológica no campo.
+  </p>
+</section>
+
+<section id="dados" class="section highlight">
+  <h2>📊 Dados do Agronegócio 2026</h2>
+  <ul>
+    <li>🌾 Produção estimada acima de 340 milhões de toneladas de grãos</li>
+    <li>🚜 Soja como principal cultura agrícola do Brasil</li>
+    <li>🌽 Milho essencial para alimentação e exportação</li>
+    <li>🌍 Brasil entre os maiores exportadores de alimentos do mundo</li>
+  </ul>
+</section>
+
+<section id="tecnologia" class="section">
+  <h2>🚜 Tecnologia no Campo</h2>
+  <p>
+    O agronegócio moderno utiliza drones, máquinas automatizadas, sensores e inteligência artificial
+    para aumentar a produtividade e reduzir impactos ambientais.
+  </p>
+
+  <div class="cards">
+    <div class="card">📡 Agricultura de precisão</div>
+    <div class="card">🚁 Uso de drones</div>
+    <div class="card">🤖 Automação agrícola</div>
+    <div class="card">💧 Irrigação inteligente</div>
+  </div>
+</section>
+
+<section id="galeria" class="section highlight">
+  <h2>📸 Galeria do Agronegócio</h2>
+
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30" alt="Plantação agrícola">
+    <img src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae" alt="Trator no campo">
+    <img src="https://images.unsplash.com/photo-1625246333195-78d9c38ad449" alt="Soja agricultura">
+    <img src="https://images.unsplash.com/photo-1586771107445-d3ca888129ff" alt="Colheita moderna">
+  </div>
+</section>
+
+<section id="contato" class="section">
+  <h2>📩 Contato</h2>
+  <p>Envie sua mensagem sobre sustentabilidade e agronegócio:</p>
+
+  <form onsubmit="enviarMensagem(event)">
+    <input type="text" id="nome" placeholder="Seu nome" required />
+    <input type="email" id="email" placeholder="Seu email" required />
+    <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p id="resposta"></p>
+</section>
+
+<footer>
+  <p>© 2026 Agrinho - Educação, campo e sustentabilidade 🌱</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
